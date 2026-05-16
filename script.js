@@ -7,15 +7,15 @@ let boton4 = document.getElementById("btn-olor");
 
 boton1.addEventListener ("click",function(){
     document.body.style.backgroundImage = "URL('imagenes/probadordecolchones.jpg')";
-    document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundPosition = "center";
+    
 });
 boton2.addEventListener ("click", function(){
     document.body.style.backgroundImage = "URL('imagenes/catadorcomidaperros.jpg')"
 });
 boton3.addEventListener ("click", function(){
-    document.body.style.backgroundImage = "URL('imagenes/buzogolfpelotas.webp')"
+    document.body.style.backgroundImage = "URL('imagenes/buzogolfpelotas.jpg')"
 });
 boton4.addEventListener ("click", function(){
     document.body.style.backgroundImage = "URL('imagenes/evaluadordeolores.jpg')"
+    
 })
